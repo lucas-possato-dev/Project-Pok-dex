@@ -17,7 +17,7 @@ body {
 main {
   display: inline-block;
   margin-top: 2%;
-  padding: 30px;
+  padding: 15px;
   position: relative;
 }
 
@@ -40,7 +40,7 @@ main {
   color: #aaa;
   top: 54.5%;
   right: 27%;
-  font-size: clamp(8px, 8vw, 20px);
+  font-size: clamp(8px, 6vw, 20px);
 }
 
 .pokemon__name {
@@ -88,6 +88,7 @@ main {
   background-color: #444;
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
   cursor: pointer;
+
 }
 
 .button:active {
@@ -95,8 +96,3 @@ main {
   font-size: 0.9rem;
 }
 
-@media (max-width: 460px) {
-  body {
-    height: 170vh;
-  }
-}
